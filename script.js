@@ -2,10 +2,6 @@ const projectName = "random-quote-machine";
 localStorage.setItem('example_project', 'Randowm Quote Machine');
 let quotesData;
 
-/*
-  Code by Gabriel Nunes
-  Modified by Todd Chaffee to use Camper gist for JSON Quote data.
-*/
 
 function inIframe () { try { return window.self !== window.top; } catch (e) { return true; } }
 
